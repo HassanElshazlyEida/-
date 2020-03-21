@@ -1,0 +1,579 @@
+
+body{
+       
+}
+a{
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a:hover{
+    text-decoration: none;
+}
+button{
+    background-color:#eb6663;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+} 
+button a:hover{
+    color: #ffffff;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #fab1a0; 
+}
+::-webkit-scrollbar-thumb {
+    background: #eb6663; 
+    border-radius: 5px;
+}
+
+.main_links{
+    text-align: center;
+}
+ul{
+    margin-bottom: 0;
+}
+.nav-bar{
+    display: inline-flex;
+    background-color: #eb6663;
+    padding:10px;
+}
+.brand {
+    font-size: 20px;
+    line-height: 35px;
+    display: inline-block;
+    font-weight: bold;
+}
+.brand a:hover{
+    color:#ffffff;
+}
+.brand  img{
+    height: 50px;
+    width: 50px;
+}
+.nav-bar .search .input-group{
+    max-width: 70%;
+    margin: 0 auto;
+}
+.nav-bar .search .input-group .form-control{
+    margin-left: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.nav-bar .search .input-group i{
+    color: #ffffff;
+}
+.nav-bar .login-account a{
+    float: right;
+    line-height: 35px;
+    padding: 0px 5px;
+    font-size:15px;
+}
+.nav-bar .login-account a i{
+    color: #ffffff;
+    margin-left: 5px;
+}.nav-bar .login-account a:hover{
+    color: #ffffff;
+}
+.product {
+	margin-bottom: 30px;
+}
+.product-inner {
+	box-shadow: 0 0 10px rgba(0,0,0,.2);
+    padding: 10px;
+    height: auto;
+}
+.product img {
+    margin-bottom: 10px;
+}
+.filter-categories{
+    margin: 50px 0px;
+}
+.filter-categories form{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.filter-categories select {
+    border: 1px solid #eb6663;
+}
+.filter-categories form .form-group {
+    max-width: 20%;
+    display: inline-block;
+    float: right;
+}
+.filter-categories .product img{
+    max-height: 220px;
+    float: right;
+    width: 100%;
+}
+.filter-categories .product .product-contain{
+    line-height: 35px;
+}
+.filter-categories .product .product-contain  strong a{
+    color: #eb6663;
+}
+.filter-categories .product .product-contain div{
+    text-align: initial;
+}
+.filter-categories .rating-stars ul{
+    float: right;
+}
+.filter-categories .product .product-contain strong{
+    color: #eb6663;
+}
+.filter-categories .product .product-contain button{
+    color:#ffffff;
+    margin: 30px 0px;
+}
+.filter-categories .product .product-contain button a:hover{
+    color: #ffffff;
+}
+.filter-categories .product .product-contain div .call-us{
+    margin: 20px 5px;
+    cursor: pointer;
+}
+.filter-categories .product .product-contain div span.displayed{
+     color: #eb6663;
+     display: none;
+     padding: 0px 5px;
+}
+.carousel img{
+    height: 50px;  
+}
+.footer{
+    background: #000000;
+    margin-top: 113px;
+}
+.footer ul li{
+    list-style-type: none;
+    margin: 0px 10px;
+    display: inline-flex;
+}
+.footer .footer-brand img{
+    height: 60px;
+    margin: 15px auto;
+    display: block;
+}
+.footer ul li img{
+    padding: 0px 5px;
+    margin-top: -5px;
+}
+.footer .follow-us li a{
+    background-color: #3b5998;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+}
+.footer  li a:hover{
+    color: #eb6663;
+}
+.footer .follow-us li i{
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    display: block;
+    margin-top: 8px;
+}
+.footer .row ul{
+    display: inline-flex;
+}
+.footer-bar{
+    float: right;
+    color: #ffffff;
+    padding: 20px;
+}
+.clear{
+    clear: both;
+}
+/* Start Login Design*/
+.login{
+    width: 400px;
+    margin: 130px auto;
+}
+.login h3{
+    text-align: center;
+    color: #eb6663;
+    font-family: sans-serif;
+}
+.login input{
+    margin-bottom: 10px;
+}
+.login .form-control{
+    background-color:#d6d6d6;
+}
+.login .login-button{
+    background-color: #eb6663;
+    color: #ffffff;
+}
+.login select{
+    margin: 10px 0px;
+}
+.creat-account a{
+    color: #eb6663;
+    text-decoration: underline;
+    font-weight: bold;
+    float: right;
+}
+/*End login Design*/
+
+/*Start Book Design*/
+.book-style-categories{
+    margin: 10px 0px;
+}
+.book-style-categories-inner{
+    box-shadow: none;
+}
+.reviews .product-review {
+    text-align: center;
+}
+.reviews .product-review h1{
+    color: #eb6663;
+}
+.reviews .product-review a{
+    color: #eb6663;
+    text-decoration: underline;
+}
+.rating-stars  ul{
+    padding: 0;
+}
+.rating-stars  ul li{
+    list-style-type: none;
+    display: inline-block;
+    color: tomato;
+}
+/* Bar Section*/
+.rating-bar{
+  background:#fab1a0;
+}
+.rating-bar span{
+  display:block;
+  height:8px;
+}
+.rating-bar, .rating-bar span {
+  border-radius:4px; 
+}
+
+/* Used to color the bars */
+.rating-bar .red{ background:#eb6663; }
+
+/* .rate-n, n being the rating from 1 to 10 */
+.rate-1{ width:10%; }
+.rate-2{ width:20%; }
+.rate-3{ width:30%; }
+.rate-4{ width:40%; }
+.rate-5{ width:50%; }
+.rate-6{ width:60%; }
+.rate-7{ width:70%; }
+.rate-8{ width:80%; }
+.rate-9{ width:90%; }
+.rate-10{ width:100%; }
+.more-review>div>span{
+    color: #eb6663;
+}
+/* CSS3 Animation */
+.rating-bar .animate{
+    margin: 10px 0px;
+    animation: progress 2s linear;
+    -moz-animation: progress 2s linear;
+    -webkit-animation: progress 2s linear;
+    -ms-animation: progress 2s linear;
+    -o-animation: progress 2s linear;
+}
+
+@-webkit-keyframes progress {
+  from { width:0% }
+  to { width:100%; }
+}
+@-moz-keyframes progress {
+  from { width:0% }
+  to { width:100%; }
+}
+@-ms-keyframes progress {
+  from { width:0% }
+  to { width:100%; }
+}
+@-o-keyframes progress {
+  from { width:0% }
+  to { width:100%; }
+}
+@keyframes progress {
+  from { width:0% }
+  to { width:100%; }
+}
+.reviews .submit-review button{
+    display: block;
+    margin: 30px auto;
+}
+/* End reviews*/
+.description h3,.photos h3,.work-hours h3{
+    float: right;
+    margin: 30px 0px;
+}
+.description p{
+    display: inline-block;
+    text-align: end;
+}
+.photos .row{
+    display: inline-flex;
+}
+.photos .show{
+    cursor: pointer;
+    margin: 20px 0px;
+}
+.photos .show img{  
+    height: 250px;
+    max-width: 100%;
+
+}
+.photos .overlay{
+    position: absolute;
+    color: #ffffff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.6);
+    text-align: center;
+}
+.photos .overlay span{
+    line-height: 250px;
+    color: #eb6663;
+}
+.photos .displayed{
+    display: none;
+}
+.work-hours div {
+    float: right;
+    color: #333;
+    font-size: 17px;
+}
+.hours div,.days div{
+    display: block;
+    width: 100%;
+}
+.work-hours .header,
+.show-reviews .header,
+.show-reviews .container div {
+    width: 100%;
+    display: inline-block;
+}
+.show-reviews .header{
+    margin: 30px 0px;
+}
+.work-hours h3,
+.show-reviews h3,
+.show-reviews .name h5,
+.show-reviews .rating-stars ul,
+.show-reviews .date span,
+.show-reviews .description p{
+    float: right;
+    text-align: initial;
+}
+.show-reviews .rating-stars ul li{
+    float: right;
+}
+/*End Book Design*/
+
+/*Start review form*/
+.write-review{
+    margin: 20px 0px;
+}
+.write-review form div h5{
+    float: right;
+}
+.write-review  .rating { 
+    border: none;
+    display: block;
+    width: 100%;
+}
+
+.write-review .rating > input { display: none; } 
+.write-review .rating > label:before { 
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+.write-review .rating > label { 
+    color: #ddd; 
+    float: right; 
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.write-review .rating > input:checked ~ label, 
+.write-review .rating:not(:checked) > label:hover,
+.write-review .rating:not(:checked) > label:hover ~ label { color: #FFD700;  } 
+
+.write-review .rating > input:checked + label:hover, 
+.write-review .rating > input:checked ~ label:hover,
+.write-review .rating > label:hover ~ input:checked ~ label,
+.write-review .rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+.write-review .write-comment textarea{
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    box-sizing: border-box;
+    resize: none;
+}
+.write-review form input[type=submit]{
+    border: none;
+    background-color: #eb6663;
+    font-size: 20px;
+    font-family: cursive;
+    color: #ffffff;
+    cursor: pointer;
+}
+.submit-review {
+    text-align: center;
+}
+.write-review form .submit-review button{
+    padding: 10px 40px;
+}
+.write-review form h5>span{
+    color: #eb6663;
+}
+/*Select Appointment*/
+.appointment .select-serv{
+    margin: 15px 0px;
+}
+.appointment .select-serv label{
+    display: block;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    color: #eb6663;
+}
+.appointment .card-header {
+	border-radius: 10px;
+    box-shadow: none;
+    min-height: 100px;
+    margin: 20px 0px;
+}
+.appointment .card-header .form-group{
+    width: 150px;
+}
+
+.appointment .heading {
+	font-size: 2rem;
+	display: inline-block;
+}
+.appointment  #list-numbers div{
+    padding: 5px;
+}
+.appointment .box {
+	cursor: pointer;
+	height: 40px;
+	width: 40px;
+	margin: 4px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	font-size: 14px;
+	background-color: white;
+	border-radius: 50%;
+	transition: all 0.5s ease-in-out;
+}
+
+.appointment .box:hover {
+	background-color: #eb6663;
+    color: #ffffff;
+    
+}
+.appointment .be-disabled{
+    cursor: unset;
+    opacity: 0.5;
+}
+.appointment .time button{
+    color: #000000;
+    display: block;
+    width: 100%;
+    padding: 20px;
+    font-weight: bold;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 20px 0px;
+    box-shadow:0px 4px 10px #eee;
+}
+.appointment .time button:hover{
+    cursor: pointer;
+    background: rgb(242, 242, 247);
+}
+.appointment .time {
+    display: none;
+}
+.change-color{
+	background-color: #eb6663!important;
+    color: #ffffff;
+}
+.appointment .book-action{
+   /* display: none; */
+}
+.appointment .book-action .cost{
+    border: 1px dotted #ccc;
+    padding: 10px;
+}
+.appointment .action{
+    margin: 10px 0px;
+}
+.appointment  button{
+    color: #ffffff;
+}
+/*End appointment section*/
+
+/*Start cart section*/
+.table-cart .table{
+    margin:60px 0px;
+    border-radius: 5px;
+}
+.table-cart .table tbody tr img {
+    max-height: 100px;
+    max-width: 100px;
+    margin: 0 auto;
+    display: block;
+}
+.table-cart .table tbody tr td dl dt{
+    float: right;
+    clear: both;
+}
+.table-cart .table tbody dd{
+    margin: 5px 0px;
+}
+.check-out h4{
+    margin: 20px 0px;
+}
+.check-out table tbody tr td:first-of-type{
+    font-weight: bold;
+    color: #eb6663;
+}
+.check-out table tbody tr td:last-of-type{
+    font-weight: 700;
+}
+.check-out button{
+    color:#000000;
+    padding: 10px 40px;
+    margin: 20px 0px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    font-size: 17px;
+}
+.check-out button:hover{
+    color: #ffffff;
+    background-color: #eb6663;
+    border: 1px solid #ffffff;
+    transition: 0.5s all ease-in-out;
+    -webkit-transition: 0.5s all ease-in-out;
+    -moz-transition: 0.5s all ease-in-out;
+    -o-transition: 0.5s all ease-in-out;
+
+}
+/*End cart section*/
